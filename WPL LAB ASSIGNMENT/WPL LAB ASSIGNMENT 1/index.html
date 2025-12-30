@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: #1f242d;
+      }
+
+      li {
+        color: #fff;
+      }
+
+      li:hover {
+        cursor: pointer;
+      }
+
+      .port {
+        padding: 0 2rem;
+        color: #fff;
+        font-size: 40px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+        align-items: baseline;
+      }
+
+      ul {
+        display: flex;
+        gap: 30px;
+        justify-content: right;
+        margin-right: 50px;
+        margin-top: 0px;
+      }
+
+      ul li {
+        list-style: none;
+        font-size: 30px;
+      }
+
+      .port ul li:hover {
+        background: linear-gradient(45deg, #f06, #3cf);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .para {
+        font-size: 25px;
+        color: #fff;
+        padding: 1rem 2rem;
+        margin-top: 80px;
+      }
+
+      .btn {
+        border: none;
+        padding: 0.5rem 1rem;
+        background-color: white;
+        cursor: pointer;
+        min-width: 15%;
+        background: linear-gradient(45deg, #f06, #3cf);
+        height: 40px;
+        font-size: 20px;
+        border-radius: 50px;
+      }
+
+      .btn:hover {
+        background-color: rgb(21, 196, 21);
+        color: #fff;
+      }
+
+      .flex-container {
+        display: flex;
+        margin: 96px 40px;
+      }
+
+      .hero-pic {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="port">
+      <b>Portfolio</b>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Service</li>
+        <li>Contact us</li>
+      </ul>
+    </div>
+
+    <div class="flex-container">
+      <div class="para">
+        <h1>I'm learning web programming course</h1>
+        <p>My name is Aman suhail. I'm doing BSCS from IQRA university</p>
+        <p>and this is my last semester.</p>
+        <button class="btn">Resume</button>
+        <button class="btn">Learn More</button>
+      </div>
+      <img class="hero-pic" src="aman.png" alt="aman pic" />
+    </div>
+  </body>
+</html>
